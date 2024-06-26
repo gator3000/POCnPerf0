@@ -4,15 +4,11 @@
 
 
 
-html {
-    height: 100%;
-}
 
 body {
     height: 100%;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
+    padding: 0;
 
     background-color: #e8f0f2;
     font-family: "Roboto Condensed", sans-serif;
@@ -34,6 +30,25 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+
+section {
+    padding: 2%;
+}
+#speed-test {
+    background-color: #dce2ea;
+}
+#discover {
+    background-color: #ffffff;
+}
+#barometers {
+    background-color: #dce2ea;
+}
+#about {
+    background-color: #ffffff;
+}
+
+
+
 
 
 
@@ -150,7 +165,9 @@ input:checked + .slider:before {
 
 
 
-
+.description-text {
+    color: #616161e1;
+}
 
 
 
@@ -173,6 +190,7 @@ input:checked + .slider:before {
     overflow: hidden;
     margin-left: 30%;
     margin-bottom: 10%;
+    background-color: #dce2ea9c;
 }
 
 .card-img {
@@ -195,4 +213,104 @@ input:checked + .slider:before {
 .card-img::after {
     content: "hello";
 
+}
+
+
+
+
+
+
+
+/* Info-cards */
+.explain-card {
+    background-color: #dce2ea;
+    border-radius: 8px;
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+    min-height: 250px;
+}
+.explain-card.encapsuled {
+    width: 20%;
+}
+.description-text.info {
+    text-align: justify;
+}
+
+#explain-cards-tests {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+/* .flow-logo{
+    padding: 30px;
+    background-color: #ff0000;
+} */
+
+/* h3.explain-title::before {
+    content: "";
+    background-color: #10f12e;
+    padding: 5px;
+} */
+
+h3 {
+    margin-top: 50px;
+}
+
+
+
+
+/* footer */
+
+footer {
+    background-color: black;
+    color: white;
+
+    margin-bottom: -2%;
+    padding: .5%;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#platforms {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.platform-logo {
+    width: 40px;
+    transition: transform .3s;
+}
+
+.platform-logo:hover {
+    transform: scale(1.2);
+}
+
+#medias {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.media-logo {
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform .3s;
+}
+
+.media-logo:hover {
+    transform: scale(1.1);
 }

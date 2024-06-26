@@ -68,7 +68,9 @@
 
     <main>
         <section id="speedtest">
-            <!--<script title="Speed test - Test de débit (speedtest)" src="https://ws-cdn.nperf.com/partner/js?l=3ae59686-4b09-4589-8fe6-c78922620a04&amp;layout=nPerfSV2&amp;theme=light"></script>-->        <div id="iframe"><!--integration iframe--></div>
+            <h2>Speed Test - Testez votre Connection</h2>
+            <script title="Speed test - Test de débit (speedtest)" src="https://ws-cdn.nperf.com/partner/js?l=3ae59686-4b09-4589-8fe6-c78922620a04&amp;layout=nPerfSV2&amp;theme=light"></script>-->
+            <div id="iframe"><!--integration iframe--></div>
         </section>
 
         <section id="discover">
@@ -77,21 +79,21 @@
                 <img class="card-img" src="assets/smartphone2-speedtest-coverage-map.webp">
                 <div class="card" id="discover-card">
                     <h3 class="card-title">Applications mobiles</h3>
-                    <p class="card-text">En savoir plus sur l'application nPerf sur Android et iOS</p>
+                    <p class="card-text description-text">En savoir plus sur l'application nPerf sur Android et iOS</p>
                 </div>
             </div>
             <div class="posts" id="coverage-maps">
                 <img class="card-img" src="assets/coverage-map.webp">
                 <div class="card" id="coverage-maps-card">
                     <h3 class="card-title">Cartes de couverture</h3>
-                    <p class="card-text">Regardez la couverture mobile dans votre région</p>
+                    <p class="card-text description-text">Regardez la couverture mobile dans votre région</p>
                 </div>
             </div>
             <div class="posts" id="host-server">
                 <img class="card-img" src="assets/men-data-storage-xl.webp">
                 <div class="card" id="host-server-card">
                     <h3 class="card-title">Héberger un serveur</h3>
-                    <p class="card-text">Participez au projet nPerf</p>
+                    <p class="card-text description-text">Participez au projet nPerf</p>
                 </div>
             </div>
         </section>
@@ -101,12 +103,55 @@
         </section>
 
         <section id="about">
-
+            <h2>A quoi sert le speed test nPerf ?</h2>
+            <div id="explain-cards">
+                <div id="explain-cards-tests">
+                    <div id="down-flow-card" class="explain-card encapsuled">
+                        <span class="flow-logo"></span>
+                        <h3 class="explain-title">Débit  descendant :</h3>
+                        <p class="description-text info">Indique la quantité de données que votre connexion peut recevoir en une seconde. Plus la mesure est élevée, meilleur est le débit de votre connexion.</p>
+                    </div>
+                    <div id="up-flow-card" class="explain-card encapsuled">
+                        <span class="flow-logo"></span>
+                        <h3 class="explain-title">Débit montant :</h3>
+                        <p class="description-text info">Indique la quantité de données que votre connexion peut envoyer en une seconde. Plus la mesure est élevée, meilleur est le débit de votre connexion.</p>
+                    </div>
+                    <div id="latency-card" class="explain-card encapsuled">
+                        <span class="flow-logo"></span>
+                        <h3 class="explain-title">Latence (ping) :</h3>
+                        <p class="description-text info">Indique le temps nécessaire à un petit paquet de données pour effectuer un aller-retour entre votre ordinateur et notre serveur de test de débit. Plus le résultat est faible, plus votre connexion est réactive.</p>
+                    </div>
+                </div>
+                <div id="info-card" class="explain-card">
+                    <span class="flow-logo"></span>
+                    <h3 class="explain-title">nPerf détermine avec précision les capacités de votre connexion Internet</h3>
+                    <p class="description-text info">Le speed test repose sur un algorithme unique permettant de mesurer précisément les débits descendant et montant ainsi que la latence de votre connexion.</p>
+                    <p class="description-text info">nPerf dispose d'un réseau de serveurs dédiés et optimisés pour délivrer le débit nécessaire pour saturer votre connexion Internet afin d'obtenir une mesure fiable.</p>
+                    <p class="description-text info">Le speed test nPerf est compatible avec tous les types de connexion : ADSL, VDSL, câble, fibre optique, satellite, wifi, wimax, cellulaire, etc.</p>
+                    <p class="description-text info">Les mesures effectuées sur nPerf sont enregistrées dans une base de données servant à la publication des baromètres nPerf.</p>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
+        <div id="copyrights">
+            <p>Politique de confidentalité |<br>CGU | Cookie</p>
+            <p>© nPerf 2014-2024</p>
+        </div>
 
+        <div id="platforms">
+            <img id="android" class="platform-logo" src="assets/android.png">
+            <img id="ios" class="platform-logo" src="assets/apple.png">
+            <img id="pc" class="platform-logo" src="assets/PC.png">
+        </div>
+
+        <div id="medias">
+            <img id="facebook" class="media-logo" src="assets/facebook.png">
+            <img id="x" class="media-logo" src="assets/twitter.png">
+            <img id="youtube" class="media-logo" src="assets/video.png">
+            <img id="cotact-us" class="media-logo" src="assets/email.png">
+        </div>
     </footer>
 </body>
 </html>
