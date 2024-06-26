@@ -2,21 +2,108 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
+
     <link rel="stylesheet" href="styles/style.css">
     <script src="scripts/script.js"></script>
 
     <title> POC nPerf </title>
+    <link rel="icon" href="https://cdn.nperf.com/favicon-site-v2/favicon-32x32.png">
 </head>
 
 <body>
     <header>
-
+        <div id="menu-nav" class="nav">
+            <div class="homebutton" class="nav-button" >
+                <a href="https://www.nperf.com/fr/" id="menu-button">
+                    <img src="https://cdn.nperf.com/website/img/nperf-new-logo.svg" class="img-fluid" class="nav-button-child" alt="nPerf" width="82" height="34">
+                </a>
+            </div>
+        </div>
+        <div id="text-nav" class="nav">
+            <div id="app-nav-button" class="nav-button">
+                <a href="" id="app-button" class="text-button">
+                    <p class="nav-button-child">Applications</p>
+                </a>
+            </div>
+            <div id="map-nav-button" class="nav-button">
+                <a href="" id="map-button" class="text-button">
+                    <p class="nav-button-child">Cartes</p>
+                </a>
+            </div>
+            <div id="posts-nav-button" class="nav-button">
+                <a href="" id="posts-button" class="text-button">
+                    <p class="nav-button-child">Publications</p>
+                </a>
+            </div>
+            <div id="app-nav-button" class="nav-button">
+                <a href="" id="app-button" class="text-button">
+                    <p class="nav-button-child">Solutions</p>
+                </a>
+            </div>
+            <div id="app-nav-button" class="nav-button">
+                <a href="" id="app-button" class="text-button">
+                    <p class="nav-button-child">A propos</p>
+                </a>
+            </div>
+        </div>
+        <div id="theme-nav" class="nav">
+            <div id="theme-nav-button" class="nav-button">
+                <label class="toggle-button" title="Not Implemented Yet">
+                    <input type="checkbox" checked>
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div id="account-nav-button" class="nav-button">
+                <a href="" id="account-button" class="nav-button" title="Not Implemented Yet">
+                    <img src="assets/user.png" width="30px" height="30px" id="user-img">
+                </a>
+            </div>
+            <div id="language-nav-button" class="nav-button">
+                <button id="language-button" title="Not Implemented Yet">
+                    FR
+                </button>
+            </div>
+        </div>
     </header>
 
+    <main>
+        <section id="speedtest">
+            <!--<script title="Speed test - Test de débit (speedtest)" src="https://ws-cdn.nperf.com/partner/js?l=3ae59686-4b09-4589-8fe6-c78922620a04&amp;layout=nPerfSV2&amp;theme=light"></script>-->        <div id="iframe"><!--integration iframe--></div>
+        </section>
 
-    <section id="content">
-        <div id="iframe-aurelie"><!--integration iframe--></div>
-    </section>
+        <section id="discover">
+            <h2 id="discover-title">Découvrez nPerf</h2>
+            <div class="posts" id="mobile-apps">
+                <img class="card-img" src="assets/smartphone2-speedtest-coverage-map.webp">
+                <div class="card" id="discover-card">
+                    <h3 class="card-title">Applications mobiles</h3>
+                    <p class="card-text">En savoir plus sur l'application nPerf sur Android et iOS</p>
+                </div>
+            </div>
+            <div class="posts" id="coverage-maps">
+                <img class="card-img" src="assets/coverage-map.webp">
+                <div class="card" id="coverage-maps-card">
+                    <h3 class="card-title">Cartes de couverture</h3>
+                    <p class="card-text">Regardez la couverture mobile dans votre région</p>
+                </div>
+            </div>
+            <div class="posts" id="host-server">
+                <img class="card-img" src="assets/men-data-storage-xl.webp">
+                <div class="card" id="host-server-card">
+                    <h3 class="card-title">Héberger un serveur</h3>
+                    <p class="card-text">Participez au projet nPerf</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="barometers">
+
+        </section>
+
+        <section id="about">
+
+        </section>
+    </main>
 
     <footer>
 
