@@ -314,3 +314,7 @@ footer {
 .media-logo:hover {
     transform: scale(1.1);
 }
+
+a.footer-link:hover {
+    color: #10f12e;
+}
